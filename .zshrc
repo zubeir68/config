@@ -99,6 +99,7 @@ alias jp="jupyter notebook"
 alias apps="/home/zubeirtech/GIT/apps"
 alias backends="/home/zubeirtech/GIT/backends"
 alias config="/home/zubeirtech/GIT/config"
+alias sleephelper="python /home/zubeirtech/GIT/backends/sleephelper.py"
 
 # User configuration
 

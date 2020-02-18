@@ -2,15 +2,13 @@
     "window.titleBarStyle": "custom",
     "workbench.iconTheme": "vscode-icons",
     "window.zoomLevel": 0,
-    "terminal.integrated.fontSize": 13,
-    "editor.fontSize": 13,
+    "terminal.integrated.fontSize": 12,
     "editor.suggestSelection": "first",
     "vsintellicode.modify.editor.suggestSelection": "automaticallyOverrodeDefaultValue",
     "workbench.colorCustomizations": {
         "editor.background": "#0b1015",
         "statusBar.background": "#0b1015",
         "statusBar.foreground": "#ffffff",
-
         "terminal.background": "#0b1015",
         "terminal.foreground": "#dfdfdf",
         "terminal.ansiBlack": "#1b2025",
@@ -29,7 +27,6 @@
         "terminal.ansiBrightWhite": "#ffffff",
         "terminal.ansiBrightCyan": "#89DDFF",
         "terminal.ansiBrightMagenta": "#CB6CFE",
-        
         "focusBorder": "#2c3e50",
         "widget.shadow": "#000000",
         "input.background": "#05080a",
@@ -91,5 +88,41 @@
         "debugToolBar.background": "#111820",
         "statusBar.debuggingBackground": "#111820"
     },
-    "workbench.colorTheme": "Dobri Next -C08- Darcula",
+    "[html]": {
+        "editor.defaultFormatter": "vscode.html-language-features",
+        "editor.tabSize": 2
+    },
+    "files.associations": {
+        "*.html": "html"
+    },
+    "html.mirrorCursorOnMatchingTag": false,
+    "editor.find.addExtraSpaceOnTop": false,
+    "editor.fontSize": 12,
+    "files.autoSave": "off",
+    "workbench.startupEditor": "newUntitledFile",
+    "editor.minimap.enabled": true,
+    "python.jediEnabled": false,
+    "python.dataScience.sendSelectionToInteractiveWindow": false,
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2
+    },
+    "liveServer.settings.CustomBrowser": "chrome",
+    "[javascript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.tabSize": 2
+    },
+    "[javascriptreact]": {
+        "editor.defaultFormatter": "vscode.typescript-language-features",
+        "editor.tabSize": 2
+    },
+    "[handlebars]": {
+        "editor.tabSize": 2,
+        "editor.defaultFormatter": "mfeckies.handlebars-formatter"
+    },
+    "workbench.editor.showTabs": true,
+    "editor.parameterHints.enabled": false,
+    "javascript.implicitProjectConfig.experimentalDecorators": true,
+    "debug.console.fontSize": 13,
+    "window.openWithoutArgumentsInNewWindow": "off",
 }
